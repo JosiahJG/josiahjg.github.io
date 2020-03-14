@@ -1,62 +1,69 @@
 body {
-  background-image:  url("../images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-size: cover;
   /* background-position: center; */
 }
-
 .grid-container {
   background-color: #fff8ff;
   border: 5px solid #7710aa;
   width: 50%;
+  min-width: 800px;
   margin: 0 auto;
-
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 200px auto;
+  font-family: Sans-serif;
 }
-
-
-div.left-bar, div.pic {
-  background: #ebf;
-  padding: 20px;
+div.left-bar {
+  background: linear-gradient(#b299b2, #cfbfcf);
+  padding: 5px 15px;
 }
-ul.links{
-    list-style-type: none;
-    padding: 0;
+ul.links {
+  list-style-type: none;
+  padding: 2px;
 }
-ul.links > li {
-    padding: 10px;
-    background: #f7ddff;
-
-    a:link {
+ul.links li {
+  font-size: 120%;
+  margin-bottom: 10px;
+  padding: 8px;
+  background: #cfbfcf;
+}
+ul.links li a:link,
+ul.links li a:visited {
+  color: #000;
   text-decoration: none;
 }
-
-a:visited {
-  text-decoration: none;
+ul.links li:hover {
+  background: #d0d;
 }
-
-
+ul.links li:hover a {
+  color: #fff;
 }
-
-
 div.main-content {
   padding: 20px;
-  grid-area: 1 / 2 / 3 / 3;
 }
-
-div.pic > img {
-  border: 3px solid #fef;
+img.dark {
+  border: 3px solid #fff8ff;
 }
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+img.bright {
+  border: 3px solid #7710aa;
 }
-
-
+div.climbing {
+  padding: 20px;
+}
+div.pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
 .banner {
   text-align: center;
-  font-size: 3em;
+  font-size: 300%;
+}
+div.title {
+  background: linear-gradient(to right, #cfbfcf, #fff8ff);
+  font-size: 150%;
+  font-weight: bold;
+  padding: 5px 0 2px 5px;
+  margin: 10px 0 10px -5px;
 }
