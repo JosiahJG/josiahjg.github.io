@@ -30,24 +30,23 @@ div.left-bar {
   background: linear-gradient(@darkcolor, @lightcolor);
   padding: 5px 15px;
 }
-ul.links{
+div.links{
   list-style-type: none;
-  padding: 2px;
-  li {
+  padding: 15px 2px;
+  a {
+    display: block;
     font-size: 120%;
     margin-bottom: 10px;
     padding: 8px;
     background: @lightcolor;
-    a:link, a:visited  {
-      color: #000;
-      text-decoration: none;
-    }
   }
-  li:hover {
+  a:link, a:visited  {
+    color: #000;
+    text-decoration: none;
+  }
+  a:hover {
     background: #d0d;
-    a {
-      color: #fff;
-    }
+    color: #fff;
   }
 }
 

@@ -17,25 +17,24 @@ div.left-bar {
   background: linear-gradient(#b299b2, #cfbfcf);
   padding: 5px 15px;
 }
-ul.links {
+div.links {
   list-style-type: none;
-  padding: 2px;
+  padding: 15px 2px;
 }
-ul.links li {
+div.links a {
+  display: block;
   font-size: 120%;
   margin-bottom: 10px;
   padding: 8px;
   background: #cfbfcf;
 }
-ul.links li a:link,
-ul.links li a:visited {
+div.links a:link,
+div.links a:visited {
   color: #000;
   text-decoration: none;
 }
-ul.links li:hover {
+div.links a:hover {
   background: #d0d;
-}
-ul.links li:hover a {
   color: #fff;
 }
 div.main-content {
