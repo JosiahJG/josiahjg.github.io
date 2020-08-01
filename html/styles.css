@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/background.jpg");
+  background-image: url("images/background1.jpg");
   background-size: cover;
   /* background-position: center; */
 }
@@ -39,6 +39,9 @@ div.links a:hover {
 }
 div.main-content {
   padding: 20px;
+}
+div.main-content li {
+  padding: 5px;
 }
 img.dark {
   border: 3px solid #fff8ff;
