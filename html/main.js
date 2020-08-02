@@ -6,6 +6,4 @@ if(!localStorage.getItem('bgNum') || localStorage.getItem('bgTime') < (new Date(
 } else {
   r = localStorage.getItem('bgNum');
 }
-document.body.style["background-image"] =  'url("images/background'+r+'.jpg")';
-
-console.log(r + " test " + localStorage.getItem('bgNum'));
+document.body.style["background-image"] =  'url("images/background'+2+'.jpg")';
