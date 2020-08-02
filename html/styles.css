@@ -37,6 +37,10 @@ div.links a:hover {
   background: #d0d;
   color: #fff;
 }
+div.links a.this-page {
+  background: #7710aa;
+  color: #fff;
+}
 div.main-content {
   padding: 20px;
 }
