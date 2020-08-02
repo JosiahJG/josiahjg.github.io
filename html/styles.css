@@ -1,5 +1,4 @@
 body {
-  background-image: url("images/background7.jpg");
   background-size: cover;
   /* background-position: center; */
 }
@@ -62,10 +61,16 @@ div.pic img {
   margin-right: auto;
   width: 75%;
 }
-.banner {
+#banner {
   text-align: center;
   font-size: 300%;
-  -webkit-text-stroke: 1px #cfbfcf;
+  text-shadow: 0px 0px 5px #d0d;
+}
+#banner .darkbg {
+  color: #fff;
+}
+#banner .lightbg {
+  color: #000;
 }
 div.title {
   background: linear-gradient(to right, #cfbfcf, #fff8ff);

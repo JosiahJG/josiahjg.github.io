@@ -4,11 +4,10 @@
 
 //my colors
 @whitecolor:  #fff8ff;
-@brightcolor: #dod;
+@brightcolor: #d0d;
 @darkboarder:  #7710aa;
 @lighboarder: @whitecolor;
 body {
-  background-image:  url("images/background7.jpg");
   background-size: cover;
   /* background-position: center; */
 }
@@ -45,7 +44,7 @@ div.links{
     text-decoration: none;
   }
   a:hover {
-    background: #d0d;
+    background: @brightcolor;
     color: #fff;
   }
 
@@ -81,10 +80,16 @@ div.pic img{
   width: 75%;
 }
 
-.banner {
+#banner {
   text-align: center;
   font-size: 300%;
-  -webkit-text-stroke: 1px @lightcolor;
+  text-shadow: 0px 0px 5px @brightcolor;
+  .darkbg {
+    color: #fff;
+  }
+  .lightbg {
+    color: #000;
+  }
 }
 
 div.title {
