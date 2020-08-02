@@ -66,12 +66,6 @@ div.pic img {
   font-size: 300%;
   text-shadow: 0px 0px 5px #d0d;
 }
-#banner .darkbg {
-  color: #fff;
-}
-#banner .lightbg {
-  color: #000;
-}
 div.title {
   background: linear-gradient(to right, #cfbfcf, #fff8ff);
   font-size: 150%;
