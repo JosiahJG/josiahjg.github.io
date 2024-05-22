@@ -9,7 +9,7 @@ body {
   min-width: 800px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 200px auto;
+  grid-template-columns: 210px auto;
   font-family: Sans-serif;
 }
 div.left-bar {
